@@ -1,0 +1,5 @@
+Building:
+=========
+
+javac *.java
+java SnakeGame
