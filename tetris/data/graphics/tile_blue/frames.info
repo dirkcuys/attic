@@ -1,0 +1,9 @@
+Sprite name: tile_blue
+Dimensions: 20x20
+Number of frames: 4
+Transparency: 0xFF,0xFF,0xFF
+Alphachannel: 255
+Filename: tile03.bmp Pause: 0
+Filename: tile02.bmp Pause: 0
+Filename: tile01.bmp Pause: 0
+Filename: tile05.bmp Pause: 0

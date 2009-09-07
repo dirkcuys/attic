@@ -1,0 +1,6 @@
+Installation
+============
+
+1. Build libSprite located in extern/libSprite. There may be a working cmake setup, so run `cmake .` and then make
+2. Build libFont located in extern/libFont. There may also be a working cmake setup. If not, use the Makefile.backup
+3. Build tetris using the makefile

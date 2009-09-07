@@ -1,0 +1,4 @@
+Sunday 6 July
+	I don know why, but when i use any function from math.h with libFont the value gets
+	screwd somehow??
+	FIXED - the problem was with negative numbers.

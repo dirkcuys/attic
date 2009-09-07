@@ -1,0 +1,24 @@
+CC = gcc
+LIBS = -lSDL -lpthread -lFont
+LINCS = -I/usr/include/SDL
+
+libFont : libFont.c
+	$(CC) $(LINCS) -Wall -c -fpic libFont.c
+	$(CC) $(LINCS) -Wall -shared -o libFont.so libFont.o
+
+install :
+	cp Font.h /usr/include
+	cp libFont.so /usr/lib
+
+uninstall :
+	rm -Rf /usr/include/Font.h
+	rm -Rf /usr/lib/libFont.so
+
+test : test.c
+	$(CC) $(LINCS) $(LIBS) -Wall -o test test.c
+
+clean :
+	rm -Rf *.o
+	rm -Rf *.so
+	rm -Rf test
+	rm -Rf *~
